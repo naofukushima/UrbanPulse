@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>UrbanPulse</title>
+    <meta name="UrbanPulse" content="アパレルのECサイト">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="js/main.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <h1 class="site-title">
+            <a href="index.html">Urban Pulse</a>
+        </h1>
+        <div id="navi">
+            <nav class="nav-menu">
+                <li><a href="#pickup">PICK UP</a></li>
+                <li><a href="#feature">FEATURE</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </nav>
+            <ul class="nav-sns">
+                <li><a href="https://twitter.com/?lang=ja">Twitter</a></li>
+                <li><a href="https://ja-jp.facebook.com/">facebook</a></li>
+                <li><a href="https://www.instagram.com/">instaglam</a></li>
+            </ul>
+        </div>
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div id="mask"></div>
+    </header>
+    <video src="img/top.mp4" autoplay muted loop playsinline></video>
+    <section id="pickup">
+        <h2 class="sec-title">PICK UP</h2>
+        <ul class="slick-area">
+            <li><img src="img/1.jpg" alt="1"></li>
+            <li><img src="img/2.jpg" alt="2"></li>
+            <li><img src="img/3.jpg" alt="3"></li>
+            <li><img src="img/4.jpg" alt="4"></li>
+            <li><img src="img/5.jpg" alt="5"></li>
+        </ul>
+    </section>
+    <sention id="feature">
+        <h2 class="sec-title">FEATURE</h2>
+        <div class="glid">
+            <div class="feature-item">
+                <img class="fadein" src="img/1.jpg">
+                <div class="item-content">
+                    <p class="item-cat">categoly</p>
+                    <p class="item-text">新作パーカー登場！限定100着！</p>
+                    <p class="item-date">2023.09.01</p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <img class="fadein" src="img/2.jpg">
+                <div class="item-content">
+                    <p class="item-cat">categoly</p>
+                    <p class="item-text">【家族セット】みんなでお揃いコーデ！</p>
+                    <p class="item-date">2023.08.01</p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <img class="fadein" src="img/3.jpg">
+                <div class="item-content">
+                    <p class="item-cat">categoly</p>
+                    <p class="item-text">【限定発売】手に入れるなら今！</p>
+                    <p class="item-date">2023.07.01</p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <img class="fadein" src="img/4.jpg">
+                <div class="item-content">
+                    <p class="item-cat">categoly</p>
+                    <p class="item-text">新作Tシャツ発売！個性が光るデザイン！</p>
+                    <p class="item-date">2023.06.01</p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <img class="fadein" src="img/5.jpg">
+                <div class="item-content">
+                    <p class="item-cat">categoly</p>
+                    <p class="item-text">【サイト開設】最新ファッションが揃うUrbanPulse、今すぐチェック！</p>
+                    <p class="item-date">2023.05.01</p>
+                </div>
+            </div>
+        </div>
+    </sention>
+    <section id="contact">
+        <h2 class="sec-title">CONTACT</h2>
+        <div class="contact-grid">
+            <div class="contact-text">
+                <p>
+                    UrbanPulseへようこそ<br>
+                    <br>
+                    最先端のモダンでストリートなファッションをお届けするUrbanPulse。<br>
+                    私たちのコレクションは、都市のエネルギーと創造力からインスピレーションを受けたデザインが特徴です。<br>
+                    クールなグラフィックプリントのTシャツ、洗練されたデニムジャケット、トレンディなボンバージャケットなど、多彩なアイテムを取り揃えています。<br>
+                    <br>
+                    都会の喧騒を背景に、自分らしさを表現するスタイルを見つけてください。どんなシーンでも目を引く、エッジの効いたファッションで、あなたの個性を輝かせます。
+                </p>
+            </div>
+            <form class="contact-form">
+                <div class="form-item">
+                    <p class="form-title">Name:</p>
+                    <input type="text">
+                </div>
+                <div class="form-item">
+                    <p class="form-title">Mail:</p>
+                    <input type="text">
+                </div>
+                <div class="form-item">
+                    <p class="form-title">Massage:</p>
+                    <textarea></textarea>
+                </div>
+                <input class="submit-btn" type="submit" value="SEND">
+            </form>
+        </div>
+    </section>
+    <footer id="footer">
+        <p>©URBAN PULSE</p>
+    </footer>
+</body>
+</html>
